@@ -28,9 +28,10 @@ Synchronized-table - управление таблицей, двусторонн
     <img width="352" height="39" alt="image" src="https://github.com/user-attachments/assets/8ec9e06d-9958-46fb-a6a8-1107730554b7" />
 
 
-5.  **Запустите миграции:**
+5.  **Запустите необходимые команды:**
     ```bash
     php artisan migrate
+    php artisan key:generate
     ```
 
 Функционал:
